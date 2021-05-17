@@ -11,6 +11,7 @@ Address = {{.Address}}
 PrivateKey = {{.PrivateKey}}{{if .HasMtu}}
 MTU = {{.Mtu}}{{end}}{{if .HasDns}}
 DNS = {{.DnsServers}}{{end}}
+MTU = 1280
 
 [Peer]
 PublicKey = {{.PublicKey}}
