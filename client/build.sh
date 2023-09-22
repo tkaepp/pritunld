@@ -25,8 +25,8 @@ cp static/RobotoMono-Medium.ttf dist-dev/static/
 cp -r node_modules/monaco-editor/min/vs dist-dev/static/
 sed -i 's|../../resources/icons/||g' dist-dev/static/blueprint-icons.css
 
-webpack --config webpack.dev.config
-webpack --config webpack-main.dev.config
+npx webpack --config webpack.dev.config
+npx webpack --config webpack-main.dev.config
 
 cp index.html dist-dev/index.html
 
@@ -55,8 +55,8 @@ cp static/RobotoMono-Medium.ttf dist/static/
 cp -r node_modules/monaco-editor/min/vs dist/static/
 sed -i 's|../../resources/icons/||g' dist/static/blueprint-icons.css
 
-webpack --config webpack.config
-webpack --config webpack-main.config
+npx webpack --config webpack.config
+npx webpack --config webpack-main.config
 
 cp index_dist.html dist/index.html
 
