@@ -49,4 +49,4 @@ require (
 
 
 
-replace github.com/pritunl/pritunl-client-electron/service => ./
+<!-- replace github.com/pritunl/pritunl-client-electron/service => ./ -->
